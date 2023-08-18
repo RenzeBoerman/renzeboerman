@@ -8,7 +8,7 @@ export function MainHeader() {
 		<div className='border-b'>
 			<div className='flex h-16 items-center px-4'>
 				<Link href='/'>
-					<h3 className='text-xl animate-bounce'>Renze Boerman</h3>
+					<h3 className='text-xl'>Renze Boerman</h3>
 				</Link>
 				<div className='ml-auto flex items-center space-x-4'>
 					<MainNav className='mx-6' />
