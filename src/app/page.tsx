@@ -10,10 +10,10 @@ export default function Home() {
 					href='https://github.com/RenzeBoerman'
 					className='text-3xl'
 				>
-					<Icons.Github />
+					<Icons.Github className='hover:scale-110 transition-all' />
 				</Link>
 				<Link href='mailto:mail@renzeboerman.nl' className='text-3xl'>
-					<Icons.Mail />
+					<Icons.Mail className='hover:scale-110 transition-all' />
 				</Link>
 			</div>
 		</div>
