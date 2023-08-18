@@ -5,6 +5,6 @@ services:
     image: node:18-alpine
     restart: unless-stopped
     command: ["yarn", "deploy"]
-    ports: 3000
+    ports: [3000]
     working_dir: /usr/app
     volumes: [.:/usr/app]
